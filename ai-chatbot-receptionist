@@ -42,16 +42,4 @@ An AI-powered chatbot receptionist built using an automation workflow that handl
 
 ## 📸 Workflow Diagram
 
-_Add workflow screenshot here_
 
----
-
-## 📂 Project Structure
-
-```text
-ai-chatbot-receptionist/
-├── README.md
-├── assets/
-│   └── workflow.png
-├── workflows/
-│   └── ai_receptionist_flow.json
