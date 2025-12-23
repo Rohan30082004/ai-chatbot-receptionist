@@ -1,0 +1,57 @@
+# 🤖 AI Chatbot Receptionist
+
+An AI-powered chatbot receptionist built using an automation workflow that handles conversations, books calendar events, and stores user data automatically.
+
+---
+
+## 🚀 Features
+
+- 💬 Real-time chat handling
+- 🧠 AI agent with memory
+- 📅 Google Calendar event creation & retrieval
+- 📊 Google Sheets integration
+- 🔁 Conditional logic flow
+- 🌐 Webhook-based responses
+
+---
+
+## 🛠️ Tech Stack
+
+- Automation Platform (Flow-based)
+- Groq Chat Model
+- Persistent Memory
+- Google Calendar API
+- Google Sheets API
+- Webhooks
+
+---
+
+## 🧩 Workflow Overview
+
+1. Chat message received
+2. Condition check (new / returning user)
+3. Initial greeting (if first-time user)
+4. AI agent processes the request
+5. Tool calls:
+   - Create calendar event
+   - Get events
+   - Append or update Google Sheet
+6. Response sent back via webhook
+
+---
+
+## 📸 Workflow Diagram
+
+_Add workflow screenshot here_
+
+---
+
+## 📂 Project Structure
+
+```text
+ai-chatbot-receptionist/
+├── README.md
+├── assets/
+│   └── workflow.png
+├── workflows/
+│   └── ai_receptionist_flow.json
